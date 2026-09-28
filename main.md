@@ -140,6 +140,14 @@ nn.Linear(in_features, out_features)
 Logits from the final Dense layer are typically passed raw (no Softmax/Sigmoid) into `CrossEntropyLoss` or `BCEWithLogitsLoss`, since those already apply the activation internally.
 
 
+# 6. Normalization
+
+Like in feed forward networks, where its necessary a normalization to control the output of the values. In CNNs its necessary too.
+
+The feature maps (matrix afters the kernels) can have a higher or lower value for the numbers. SO control that its an important part
+
+Here we gonna normalize using the batch normalization
+
 
 
 # Types 
